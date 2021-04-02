@@ -1,0 +1,814 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;1,300&family=Sora:wght@700&display=swap');
+
+/* font-family: 'Crimson Pro', serif;
+ /* font-family: 'Sora', sans-serif;  */
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}  */
+/* .navbar{
+     width: 75%;
+ } */
+a {
+  text-decoration: none;
+}
+.navbar-brand img{
+    margin-left: 70px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    font-size: 25px !important;
+}
+.main-page img {
+  /* Vector 1 */
+
+  position: absolute;
+  width: 90%;
+
+  height: 90%;
+  left: 1px;
+  top: 180px;
+
+  /* border: 1px solid #000000;
+clip-path: polygon(16% 7%, 93% 7%, 63% 100%, 37% 100%, 0 72%, 0 24%);  */
+}
+.cont-img img {
+  position: absolute;
+  width: 50%;
+  height: 75%;
+  left: 710px;
+  top: 177px;
+}
+
+.big-head {
+  position: absolute;
+  width: 534px;
+  height: 216px;
+  left: 104px;
+  top: 310px;
+
+  font-family: 'Sora', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 112px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.big-sub {
+  position: absolute;
+  width: 352px;
+  height: 28px;
+  left: 184px;
+  top: 400px;
+
+  font-family: 'Crimson Pro', serif;
+  font-style: none;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 37px;
+  text-align: center;
+
+  color: #fcfbfb;
+}
+.main-sub1 {
+  position: absolute;
+  width: 581px;
+  height: 131px;
+  left: 81px;
+  top: 481px;
+
+  font-family: 'Crimson Pro', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.btn-main {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 286px;
+  top: 595px;
+
+  background: #f47457;
+  border-radius: 50px;
+
+  font-family: 'Crimson Pro', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 39px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.abt-box {
+  position: absolute;
+  width: 80%;
+  height: 35%;
+  left: 135px;
+  top: 725px;
+
+  background: #ffa600;
+}
+
+.abt-head {
+  position: absolute;
+
+  left: 460px;
+  top: 34px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37px;
+  line-height: 43px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.shift-lef {
+  position: absolute;
+  width: 5%;
+  height: 20%;
+  left: 380px;
+  top: 30px;
+ 
+}
+
+.shift-rig {
+  position: absolute;
+  width: 5%;
+  height: 20%;
+  right: 390px;
+  top: 30px;
+ 
+}
+.abt-sub {
+  position: absolute;
+  width: 1105px;
+  height: 169px;
+  left: 36px;
+  top: 110px;
+
+  font-family: 'Crimson Pro', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #f8f8f8;
+}
+.cont-con {
+  height: 18vh;
+  margin-top: 50rem;
+
+  background: #141842;
+}
+.sub-contact {
+  font-family: 'Sora', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  
+  font-size: 45px;
+  line-height: 75px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 200px;
+  padding-top: 30px;
+
+  color: #ffffff;
+}
+.mail-cont {
+    width: 212px;
+    height: 51px;
+    position: relative;
+    margin-top: -83px;
+    margin-left: 50rem;
+    background: #b6e4da;
+    font-family:'Crimson Pro', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: none;
+    color: #000000;
+    
+}
+.btn-cont{
+    width: 212px;
+    height: 51px;
+    position: relative;
+    margin-top: -51px;
+    margin-left: 37.5em;
+    background: #3C8F7D;
+    font-family:'Crimson Pro', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: none;
+    justify-content: center;
+    color: #000000;
+    
+
+}
+
+/* ************************************* MEDIA QUERRY ********************************** */
+
+@media (max-width: 375px) and (min-width:100px){
+  .navbar{
+    width: 100%;
+  }
+  .navbar-brand img{
+    width: 50% !important;
+    height: 10% !important;
+    margin-left: 8px;
+  }
+  .main-page-img{
+    margin-top: -81px;
+    width: 90% !important;
+    height: 70% !important;
+  }
+  .big-head{
+    margin-top: -224px;
+    font-size: 25px;
+    margin-left: -244px;
+  }
+  .big-sub{
+    margin-top: -246px;
+    font-size: 14px;
+    margin-left: -237px;
+
+  }
+  .main-sub1{
+    margin-top: -260px;
+    font-size: 12px;
+    width: 60%;
+    height: 15%;
+    margin-left: -71px;
+    line-height: 20px;
+    text-align:center !important;
+  }
+  .btn-main{
+    margin-left: -238px;
+    margin-top: -300px;
+    width: 113px;
+    height: 29px;
+    font-size: 15px;
+  }
+ 
+  .main-exp{
+    padding-top: -6px !important
+  }
+  .cont-img img{
+    width: 101%;
+    height: 54%;
+    margin-top: 114px;
+    margin-left: -720px;
+
+
+  }
+  .abt-box{
+    margin-top: -108px;
+    margin-left: -122px;
+    width: 87%;
+    height: 20%;
+  }
+  .abt-head{
+    margin-top: -36px;
+    font-size: 19px;
+    margin-left: -377px;
+  }
+  .shift-lef{
+    margin-left: -319px;
+    margin-top: -23px;
+    /* width: 25% ;
+    height: 15%; */
+  }
+  .shift-rig {
+    margin-right: -371px;
+    margin-top: -24px !important;
+
+    /* width: 25% ;
+    height: 15%; */
+  }
+  .abt-sub{
+    font-size: 10px;
+    margin-top: -68px;
+    margin-left: -10px;
+    width: 84%;
+    line-height: inherit;
+  }
+  .cont-con{
+    margin-top: 40rem;
+    width: 88%;
+    margin-left: 10px;
+
+
+  }
+  .sub-contact{
+    font-size: 23px;
+    margin-left: 75px;
+    padding-top: 1px;
+  }
+  .mail-cont{
+    width: 96px;
+    height: 30px;
+    font-size: 13px;
+    margin-left: 62px;
+    margin-top: -26px;
+  }
+  .btn-cont{
+    width: 96px;
+    height: 30px;
+    font-size: 13px;
+    margin-left: 158px;
+    margin-top: -30px;
+
+  }
+
+}
+
+
+@media (max-width: 425px) and (min-width:375px){
+  .navbar{
+    width: 100%;
+  }
+  .navbar-brand img{
+    width: 50% !important;
+    height: 10% !important;
+    margin-left: 8px;
+  }
+  .main-page-img{
+    margin-top: -81px;
+    width: 90% !important;
+    height: 70% !important;
+  }
+  .big-head{
+    margin-top: -224px;
+    font-size: 35px;
+    margin-left: -218px;
+  }
+  .big-sub{
+    margin-top: -246px;
+    font-size: 14px;
+    margin-left: -213px;
+
+  }
+  .main-sub1{
+    margin-top: -260px;
+    font-size: 16px;
+    width: 60%;
+    height: 15%;
+    margin-left: -53px;
+    line-height: 20px;
+    text-align: center !important;
+
+  }
+  .btn-main{
+    margin-left: -206px;
+    margin-top: -300px;
+    width: 113px;
+    height: 29px;
+    font-size: 18px;
+  }
+ 
+  .main-exp{
+    padding-top: -6px !important
+  }
+  .cont-img img{
+    width: 101%;
+    height: 54%;
+    margin-top: 114px;
+    margin-left: -720px;
+
+
+  }
+  .abt-box{
+    margin-top: -108px;
+    margin-left: -122px;
+    width: 87%;
+    height: 20%;
+  }
+  .abt-head{
+    margin-top: -36px;
+    font-size: 19px;
+    margin-left: -377px;
+  }
+  .shift-lef{
+    margin-left: -319px;
+    margin-top: -23px;
+    /* width: 25% ;
+    height: 15%; */
+  }
+  .shift-rig {
+    margin-right: -321px;
+    margin-top: -24px !important;
+
+
+    /* width: 25% ;
+    height: 15%; */
+  }
+  .abt-sub{
+    font-size: 10px;
+    margin-top: -68px;
+    margin-left: -10px;
+    width: 84%;
+    line-height: inherit;
+  }
+  .cont-con{
+    margin-top: 40rem;
+    width: 88%;
+    margin-left: 10px;
+
+
+  }
+  .sub-contact{
+    font-size: 23px;
+    margin-left: 75px;
+    padding-top: 1px;
+  }
+  .mail-cont{
+    width: 96px;
+    height: 30px;
+    font-size: 13px;
+    margin-left: 62px;
+    margin-top: -26px;
+  }
+  .btn-cont{
+    width: 96px;
+    height: 30px;
+    font-size: 13px;
+    margin-left: 158px;
+    margin-top: -30px;
+
+  }
+
+}
+
+
+@media (max-width: 760px) and (min-width:425px){
+  
+  .navbar-brand img{
+    width: 50% !important;
+    height: 10% !important;
+    margin-left: 8px;
+  }
+  .main-page-img{
+    margin-top: -81px;
+    width: 90% !important;
+    height: 70% !important;
+  }
+  .big-head{
+    margin-top: -224px;
+    font-size: 35px;
+    margin-left: -218px;
+  }
+  .big-sub{
+    margin-top: -246px;
+    font-size: 14px;
+    margin-left: -213px;
+
+  }
+  .main-sub1{
+    margin-top: -260px;
+    font-size: 16px;
+    width: 60%;
+    height: 15%;
+    margin-left: -53px;
+    line-height: 20px;
+    text-align: center !important;
+
+  }
+  .btn-main{
+    margin-left: -206px;
+    margin-top: -300px;
+    width: 113px;
+    height: 29px;
+    font-size: 18px;
+  }
+ 
+  .main-exp{
+    padding-top: -6px !important
+  }
+  .cont-img img{
+    width: 101%;
+    height: 54%;
+    margin-top: 114px;
+    margin-left: -720px;
+
+
+  }
+  .abt-box{
+    margin-top: -108px;
+    margin-left: -109px;
+    width: 87%;
+    height: 20%;
+  }
+  .abt-head{
+    margin-top: -36px;
+    font-size: 19px;
+    margin-left: -377px;
+  }
+  .shift-lef{
+    margin-left: -319px;
+    margin-top: -23px;
+    /* width: 25% ;
+    height: 15%; */
+  }
+  .shift-rig {
+    margin-right: -276px;
+    margin-top: -24px !important;
+
+    /* width: 25% ;
+    height: 15%; */
+  }
+  .abt-sub{
+    font-size: 10px;
+    margin-top: -68px;
+    margin-left: -10px;
+    width: 84%;
+    line-height: inherit;
+  }
+  .cont-con{
+    margin-top: 40rem;
+    width: 88%;
+    margin-left: 25px;
+
+
+  }
+  .sub-contact{
+    font-size: 23px;
+    margin-left: 75px;
+    padding-top: 1px;
+  }
+  .mail-cont{
+    width: 96px;
+    height: 30px;
+    font-size: 13px;
+    margin-left: 62px;
+    margin-top: -26px;
+  }
+  .btn-cont{
+    width: 96px;
+    height: 30px;
+    font-size: 13px;
+    margin-left: 158px;
+    margin-top: -30px;
+
+  }
+
+}
+
+
+
+@media (max-width: 1023px) and (min-width:768px){
+  
+  .navbar-brand img{
+    width: 50% !important;
+    height: 10% !important;
+    margin-left: 8px;
+  }
+  .main-page-img{
+    margin-top: -81px;
+    width: 90% !important;
+    height: 70% !important;
+  }
+  .big-head{
+    margin-top: -164px;
+    font-size: 50px;
+    margin-left: -145px;
+
+  }
+  .big-sub{
+    margin-top: -180px;
+    font-size: 20px;
+    margin-left: -130px;
+
+  }
+  .main-sub1{
+    margin-top: -219px;
+    font-size: 25px;
+    width: 44%;
+    height: 15%;
+    margin-left: -58px;
+    line-height: 29px;
+    text-align: center !important;
+
+  }
+  .btn-main{
+    margin-left: -125px;
+    margin-top: -220px;
+    width: 128px;
+    height: 38px;
+    font-size: 24px;
+  }
+ 
+  .main-exp{
+    padding-top: -6px !important
+  }
+  .cont-img img{
+    width: 60%;
+    height: 58%;
+    margin-top: -64px;
+    margin-left: -375px;
+
+  }
+  .abt-box{
+    margin-top: -207px;
+    margin-left: -109px;
+    width: 87%;
+    height: 20%;
+  }
+  .abt-head{
+    margin-top: -28px;
+    font-size: 29px;
+    margin-left: -237px;
+
+  }
+  .shift-lef{
+    margin-left: -199px;
+    margin-top: -17px;
+
+    /* width: 25% ;
+    height: 15%; */
+  }
+  .shift-rig {
+    margin-right: -214px;
+    margin-top: -17px !important;
+
+    /* width: 25% ;
+    height: 15%; */
+  }
+  .abt-sub{
+    font-size: 15px;
+    margin-top: -63px;
+    margin-left: 24px;
+    width: 84%;
+    line-height: inherit;
+
+  }
+  .cont-con{
+    margin-top: 33rem;
+    width: 87%;
+    margin-left: 27px;
+
+  }
+  .sub-contact{
+    font-size: 27px;
+    margin-left: 77px;
+    padding-top: 22px;
+
+  }
+  .mail-cont{
+    width: 125px;
+    height: 30px;
+    font-size: 17px;
+    margin-left: 326px;
+    margin-top: -68px;
+
+  }
+  .btn-cont{
+    width: 96px;
+    height: 30px;
+    font-size: 18px;
+    margin-left: 451px;
+    margin-top: -30px;
+
+  }
+
+}
+
+@media (max-width: 1440px) and (min-width:1024px){
+  
+  .navbar-brand img{
+    width: 51% !important;
+    height: 29% !important;
+    margin-left: 10px;
+  }
+  .main-page-img{
+    margin-top: -81px;
+    width: 90% !important;
+    height: 70% !important;
+  }
+  .big-head{
+    margin-top: -142px;
+    font-size: 50px;
+    margin-left: -125px;
+
+
+  }
+  .big-sub{
+    margin-top: -155px;
+    font-size: 20px;
+    margin-left: -115px;
+
+  }
+  .main-sub1{
+    margin-top: -184px;
+    font-size: 25px;
+    width: 44%;
+    height: 15%;
+    margin-left: -58px;
+    line-height: 29px;
+    text-align: center !important;
+  }
+  .btn-main{
+    margin-left: -95px;
+    margin-top: -175px;
+    width: 175px;
+    height: 42px;
+    font-size: 28px;
+  }
+ 
+  .main-exp{
+    padding-top: -6px !important
+  }
+  .cont-img img{
+    width: 60%;
+    height: 58%;
+    margin-top: -110px;
+    margin-left: -272px;
+
+  }
+  .abt-box{
+    margin-top: -160px;
+    margin-left: -80px;
+    width: 87%;
+    height: 20%;
+  }
+  .abt-head{
+    margin-top: -26px;
+    font-size: 34px;
+    margin-left: -144px;
+
+  }
+  .shift-lef{
+    margin-left: -120px;
+    margin-top: -17px;
+
+    /* width: 25% ;
+    height: 15%; */
+  }
+  .shift-rig {
+    margin-right: -139px;
+    margin-top: -17px !important;
+
+    /* width: 25% ;
+    height: 15%; */
+  }
+  .abt-sub{
+    font-size: 19px;
+    margin-top: -53px;
+    margin-left: 45px;
+    width: 84%;
+    line-height: inherit;
+
+  }
+  .cont-con{
+    margin-top: 39rem;
+    width: 100%;
+ 
+
+  }
+  .sub-contact{
+    font-size: 41px;
+    margin-left: 77px;
+    padding-top: 40px;
+
+
+  }
+  .mail-cont{
+    width: 174px;
+    height: 39px;
+    font-size: 25px;
+    margin-left: 547px;
+    margin-top: -75px;
+
+  }
+  .btn-cont{
+    width: 174px;
+    height: 39px;
+    font-size: 25px;
+    margin-left: 721px;
+    margin-top: -39px;
+
+  }
+
+}
